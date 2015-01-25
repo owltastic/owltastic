@@ -9,16 +9,43 @@
 ?>
 
 	</div><!-- #content -->
+	
+	<footer class="group">
+		<nav class="footer-nav group">
+			<ul>
+				<li class="link-style-1">
+					<a href="">Home</a>
+				</li>       
+				<li class="link-style-2">
+					<a href="">Writing</a>
+				</li>
+				<li class="link-style-3">
+					<a href="">Notes</a>
+				</li> 
+				<li class="link-style-1">
+					<a href="">Talks</a>
+				</li>
+				<li class="link-style-2">
+					<a href="">About</a>
+				</li>    
+				<li class="link-style-3">
+					<a href="">Contact</a>
+				</li> 
+				<li class="social-link twitter">
+					<a href="">Twitter</a>
+				</li>
+				<li class="social-link facebook">
+					<a href="">Facebook</a>
+				</li>    
+				<li class="social-link dribbble">
+					<a href="">Dribbble</a>
+				</li>      
+			</ul>
+		</nav>
+		<p>Thanks for stopping by! You can <a href="">read about the design and making of this site</a>. Please don't steal my work.</p>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'owltastic' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'owltastic' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'owltastic' ), 'Owltastic', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
+	</footer>
+	
 <?php wp_footer(); ?>
 
 </body>

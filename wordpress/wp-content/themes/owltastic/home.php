@@ -86,6 +86,11 @@
 	</ol>
 </section>
 
+	<section class="elsewhere">
+		<h1>Elsewhere</h1>
+		<p>I am an enthusiastic <a href="" class="link-style-1">dribbbler</a>. I post things intermittently on <a href="" class="link-style-2">Twitter</a>. You can follow all my updates on <a href="" class="link-style-3">Facebook</a>. I work at <a href="" class="link-style-1">SproutVideo</a>, a fantastic service you should use. You can also <a href="" class="link-style-2">email me</a>.</p>
+	</section>
+
 
 
 
