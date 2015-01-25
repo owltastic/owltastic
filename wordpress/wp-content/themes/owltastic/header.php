@@ -21,22 +21,24 @@
 <div id="page" class="hfeed site">
 	
 	<header id="masthead" class="site-header group" role="banner">
-		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-		<div class="tagline">
-			<h2>Hi! Welcome to Owltastic, my online home. I’m Meagan Fisher, a nocturnal-ish <a href="" class="designer-link">designer</a> who <a href="" class="writing-link">writes</a> and <a href="" class="speaking-link">speaks</a> about web design.</h2>
-		</div><!-- /.tagline -->
+		<div class="site-description">
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<div class="tagline">
+				<h2>Hello! I’m Meagan Fisher, an owl-loving <a href="" class="designer-link">designer</a> who <a href="" class="writing-link">writes</a> and <a href="" class="speaking-link">speaks</a> about her work and life.</h2>
+			</div><!-- /.tagline -->
+		</div>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<ul>
-				<li class="writing-link">
-					<a href="">Writing</a>
+				<li class="writing-link <?php if (in_category('writing') ): ?>current-page<?php endif; ?>">
+					<a href="/?cat=4">Writing</a>
 				</li>
-				<li class="notes-link">
+				<li class="notes-link <?php if (in_category('notes') ): ?>current-page<?php endif; ?>">
 					<a href="">Notes</a>
 				</li>
-				<li class="talks-link">
+				<li class="talks-link <?php if (in_category('speaking') ): ?>current-page<?php endif; ?>">
 					<a href="">Talks</a>
 				</li>
-				<li class="work-link">
+				<li class="work-link <?php if (in_category('working') ): ?>current-page<?php endif; ?>">
 					<a href="">Work</a>
 				</li>
 				<li class="about-link">

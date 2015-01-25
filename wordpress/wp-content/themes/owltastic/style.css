@@ -195,7 +195,7 @@ h1 {
     line-height: 1.5em;
     margin: 0 0 0 0; }
     .notes h2 a {
-      color: #d690a0; }
+      color: #ffe59c; }
   .notes li {
     display: table;
     float: left;
@@ -219,7 +219,7 @@ h1 {
       line-height: 1.8em;
       margin-bottom: 10px; }
       .notes li h3 a {
-        color: #d8c287; }
+        color: #ffe59c; }
     .notes li p {
       -webkit-font-smoothing: antialiased;
       color: #fafae8;
@@ -235,7 +235,7 @@ h1 {
       font-weight: bold;
       letter-spacing: 1px;
       text-transform: uppercase;
-      color: #d690a0;
+      color: #79c2b2;
       display: block;
       margin-top: 10px; }
     .notes li:nth-of-type(even) {
@@ -453,6 +453,69 @@ footer {
         display: block;
         padding: 10px 0; }
 
+.writing-banner {
+  background: #333; }
+  .writing-banner .writing-banner-outer {
+    background: -moz-linear-gradient(left, rgba(121, 194, 178, 0.8) 0%, rgba(194, 174, 121, 0.8) 50%, rgba(241, 176, 191, 0.8) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(121, 194, 178, 0.8)), color-stop(50%, rgba(194, 174, 121, 0.8)), color-stop(100%, rgba(241, 176, 191, 0.8)));
+    background: -webkit-linear-gradient(left, rgba(121, 194, 178, 0.8) 0%, rgba(194, 174, 121, 0.8) 50%, rgba(241, 176, 191, 0.8) 100%);
+    background: -o-linear-gradient(left, rgba(121, 194, 178, 0.8) 0%, rgba(194, 174, 121, 0.8) 50%, rgba(241, 176, 191, 0.8) 100%);
+    background: -ms-linear-gradient(left, rgba(121, 194, 178, 0.8) 0%, rgba(194, 174, 121, 0.8) 50%, rgba(241, 176, 191, 0.8) 100%);
+    background: linear-gradient(to right, rgba(121, 194, 178, 0.8) 0%, rgba(194, 174, 121, 0.8) 50%, rgba(241, 176, 191, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc79c2b2', endColorstr='#ccf1b0bf',GradientType=1 ); }
+  .writing-banner .writing-banner-inner {
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0.25)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40ffffff', endColorstr='#00ffffff',GradientType=1 );
+    padding: 80px 6.818181818% 160px 6.818181818%; }
+  .writing-banner h1 {
+    color: #fafae8;
+    text-align: center; }
+
+.posts-list {
+  background: url(img/bg-posts-list-top.png) top repeat-x;
+  margin: -85px auto 0 auto;
+  padding-top: 16px;
+  position: relative;
+  width: 65.45454545%;
+  /* 720/1100 */ }
+  .posts-list li {
+    background: #fafae8;
+    margin-bottom: 7.272727273%;
+    padding: 11.11111111% 11.11111111% 0 11.11111111%; }
+    .posts-list li:first-of-type:before {
+      background: url(img/bg-posts-list-left.png) no-repeat;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -17px;
+      width: 18px;
+      height: 185px; }
+    .posts-list li:first-of-type:after {
+      background: url(img/bg-posts-list-right.png) no-repeat;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: -18px;
+      width: 18px;
+      height: 185px; }
+  .posts-list h2 {
+    font-family: "bitter";
+    font-size: 34px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: capitalize; }
+  .posts-list p {
+    font-family: "bitter";
+    font-size: 22px;
+    line-height: 1.8em; }
+
 @media screen and (max-width: 1090px) {
   .main-banner .banner-description,
   .main-banner .writing-link {
@@ -460,23 +523,23 @@ footer {
   .main-banner .banner-image {
     width: 33.39449541%; } }
 @media screen and (max-width: 980px) {
-  header .tagline p {
+  .site-header .tagline p {
     font-size: 16px;
     line-height: 1.8em; }
 
   .elsewhere p {
     font-size: 24px; } }
 @media screen and (max-width: 900px) {
-  header h1 {
+  .site-header h1 {
     height: 125px;
     width: 16.6%; }
-    header h1 a {
+    .site-header h1 a {
       height: 125px;
       padding: 20px 40px; }
-  header .tagline {
+  .site-header .tagline {
     height: 125px;
     width: 83.4%; }
-    header .tagline p {
+    .site-header .tagline p {
       font-size: 18px;
       line-height: 1.6em; }
 
@@ -528,57 +591,57 @@ footer {
   footer p {
     margin-top: 50px; } }
 @media screen and (max-width: 900px) and (min-width: 700px) {
-  header nav {
+  .site-header nav {
     background: #b17a86;
     height: auto;
     width: 100%; }
-    header nav li {
+    .site-header nav li {
       width: 16.66666667%; }
-      header nav li.writing-link {
+      .site-header nav li.writing-link {
         background: #4fae9a; }
-      header nav li.notes-link {
+      .site-header nav li.notes-link {
         background: #79c2b2; }
-      header nav li.talks-link {
+      .site-header nav li.talks-link {
         background: #4b5052; }
-      header nav li.work-link {
+      .site-header nav li.work-link {
         background: #5e6567; }
-      header nav li.about-link {
+      .site-header nav li.about-link {
         background: #a2606f; }
-      header nav li.contact-link {
+      .site-header nav li.contact-link {
         background: #b17a86; }
-      header nav li a {
+      .site-header nav li a {
         padding: 0;
         text-align: center; } }
 @media screen and (max-width: 700px) {
-  header nav {
+  .site-header nav {
     height: auto;
     width: 100%; }
-    header nav li a {
+    .site-header nav li a {
       height: auto;
       padding: 20px;
       text-align: center; }
-  header .site-description {
+  .site-header .site-description {
     position: relative; }
-    header .site-description:after, header .site-description:before {
+    .site-header .site-description:after, .site-header .site-description:before {
       content: ".";
       display: block;
       height: 0;
       clear: both;
       visibility: hidden; }
-  header h1 {
+  .site-header h1 {
     position: absolute;
     height: 100%;
     width: 33.33333333%; }
-    header h1 a {
+    .site-header h1 a {
       height: 100%;
       left: 0;
       position: absolute; }
-  header .tagline {
+  .site-header .tagline {
     height: auto;
     left: 33.33333333%;
     position: relative;
     width: 66.66666667%; }
-    header .tagline p {
+    .site-header .tagline p {
       font-size: 16px; }
 
   .main-banner h2 {
@@ -619,7 +682,7 @@ footer {
   h1 {
     font-size: 40px; } }
 @media screen and (max-width: 535px) {
-  header .tagline {
+  .site-header .tagline {
     padding: 20px 40px; } }
 @media screen and (max-width: 400px) {
   .notes li img,
