@@ -72,6 +72,19 @@
 	</ul>
 </section>
 
+<section class="speaking-events group">
+
+	<div class="group">
+		<h1><a href="">Speaking Events</a></h1>
+		<h2>Sometimes I speak about web design. <a href="">Read about upcoming and past events.</a></h2>	
+	</div>
+
+	<ol class="group">
+		<?php $my_query = new WP_Query('category_name=Speaking&showposts=4'); while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID;?>
+			<?php the_excerpt(); ?>
+		<?php endwhile; ?>
+	</ol>
+</section>
 
 
 

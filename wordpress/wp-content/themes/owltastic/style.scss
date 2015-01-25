@@ -413,9 +413,12 @@ h1 {
 	background: url(img/bg-pattern-green.jpg);
 	padding: 6.818181818%;
 
+	a {
+		color: $owltastic-yellow;
+	}
+
 	h1 {
 		display: inline-block;
-		color: $owltastic-yellow;
 		margin: 0 20px 20px 0;
 	}
 
@@ -428,6 +431,13 @@ h1 {
   ol {
     @include cta-style;
     margin-top: 50px;
+
+    a {
+	    color: lighten($owltastic-teal,27%);
+	    display: block;
+	    line-height: 1.5em;
+	    padding: 22px;
+  	}
 
     .event-item {
       border-bottom: 1px solid darken($owltastic-teal,20%);
@@ -452,13 +462,6 @@ h1 {
         }
       }
     }    
-  }
-
-a {
-    color: lighten($owltastic-teal,27%);
-    display: block;
-    line-height: 1.5em;
-    padding: 22px;
   }
 
 	.upcoming {
@@ -503,7 +506,7 @@ a {
 			margin: -6px 0;
 			padding: 6px 10px;
 			text-align: center;
-			width: 110px;
+			width: 120px;
 		}
 	}
 }

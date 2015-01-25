@@ -317,9 +317,10 @@ h1 {
   color: #e9f5f2;
   background: url(img/bg-pattern-green.jpg);
   padding: 6.818181818%; }
+  .speaking-events a {
+    color: #ffe59c; }
   .speaking-events h1 {
     display: inline-block;
-    color: #ffe59c;
     margin: 0 20px 20px 0; }
   .speaking-events h2 {
     -webkit-font-smoothing: antialiased;
@@ -335,6 +336,11 @@ h1 {
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-top: 50px; }
+    .speaking-events ol a {
+      color: #d8ede8;
+      display: block;
+      line-height: 1.5em;
+      padding: 22px; }
     .speaking-events ol .event-item {
       border-bottom: 1px solid #439281; }
       .speaking-events ol .event-item ul {
@@ -348,11 +354,6 @@ h1 {
           padding-left: 30px; }
         .speaking-events ol .event-item li:last-of-type a {
           padding-right: 0; }
-  .speaking-events a {
-    color: #d8ede8;
-    display: block;
-    line-height: 1.5em;
-    padding: 22px; }
   .speaking-events .upcoming a {
     color: #fafae8; }
   .speaking-events .upcoming .speaking-button a {
@@ -378,7 +379,7 @@ h1 {
       margin: -6px 0;
       padding: 6px 10px;
       text-align: center;
-      width: 110px; }
+      width: 120px; }
 
 .elsewhere {
   padding: 6.818181818%; }
