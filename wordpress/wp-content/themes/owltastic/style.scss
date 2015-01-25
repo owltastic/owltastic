@@ -64,7 +64,7 @@ h1 {
 	@include headline-style;
 }
 
-header {
+.site-header {
 	-webkit-font-smoothing: antialiased;
 	background: $owltastic-cream;
 
@@ -87,12 +87,12 @@ header {
 	}
 
 	.tagline {
-		background: url(img/bg-pattern-gray.jpg);
+		background: #595d5f url(img/bg-pattern-gray.jpg);
 		font-family: "bitter";
 		padding: 35px 40px 40px 40px;
 		width: 36.36363636%; /* 400/1100 */
 
-		p {
+		h2 {
 			color: $owltastic-cream;
 			font-size: 18px;
 			letter-spacing: -.005em;

@@ -19,40 +19,34 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'owltastic' ); ?></a>
-
+	
 	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description">Hi! Welcome to Owltastic, my online home. I’m Meagan Fisher, a nocturnal-ish designer who writes and speaks about web design.</h2>
-		</div><!-- .site-branding -->
-
+		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<div class="tagline">
+			<h2>Hi! Welcome to Owltastic, my online home. I’m Meagan Fisher, a nocturnal-ish <a href="" class="designer-link">designer</a> who <a href="" class="writing-link">writes</a> and <a href="" class="speaking-link">speaks</a> about web design.</h2>
+		</div><!-- /.tagline -->
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<!--
-				<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Primary Menu', 'owltastic' ); ?></button>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-			-->
 			<ul>
-				<li>
+				<li class="writing-link">
 					<a href="">Writing</a>
 				</li>
-				<li>
+				<li class="notes-link">
 					<a href="">Notes</a>
 				</li>
-				<li>
+				<li class="talks-link">
 					<a href="">Talks</a>
 				</li>
-				<li>
+				<li class="work-link">
 					<a href="">Work</a>
 				</li>
-				<li>
+				<li class="about-link">
 					<a href="">About</a>
 				</li>
-				<li>
+				<li class="contact-link">
 					<a href="">Contact</a>
 				</li>
 			</ul>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+		</nav><!-- /#site-navigation -->
+	</header><!-- /#masthead -->
 
 	<div id="content" class="site-content">

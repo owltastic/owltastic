@@ -27,43 +27,43 @@ h1 {
   line-height: 1.2em;
   font-size: 50px; }
 
-header {
+.site-header {
   -webkit-font-smoothing: antialiased;
   background: #fafae8; }
-  header h1, header .tagline, header nav {
+  .site-header h1, .site-header .tagline, .site-header nav {
     height: 160px;
     float: left; }
-  header h1 {
+  .site-header h1 {
     width: 13.63636364%;
     /* 150/1100 */ }
-    header h1 a {
+    .site-header h1 a {
       background: url(img/logo.png) center no-repeat;
       display: block;
       height: 150px;
       padding: 80px 40px;
       text-indent: -9999px;
       width: 100%; }
-  header .tagline {
-    background: url(img/bg-pattern-gray.jpg);
+  .site-header .tagline {
+    background: #595d5f url(img/bg-pattern-gray.jpg);
     font-family: "bitter";
     padding: 35px 40px 40px 40px;
     width: 36.36363636%;
     /* 400/1100 */ }
-    header .tagline p {
+    .site-header .tagline h2 {
       color: #fafae8;
       font-size: 18px;
       letter-spacing: -.005em;
       line-height: 1.6em; }
-    header .tagline .designer-link {
+    .site-header .tagline .designer-link {
       color: #79c2b2; }
-    header .tagline .writing-link {
+    .site-header .tagline .writing-link {
       color: #d690a0; }
-    header .tagline .speaking-link {
+    .site-header .tagline .speaking-link {
       color: #d8c287; }
-  header nav {
+  .site-header nav {
     background: #4b5052;
     width: 50%; }
-    header nav li {
+    .site-header nav li {
       display: table;
       table-layout: fixed;
       float: left;
@@ -72,24 +72,24 @@ header {
       letter-spacing: 1px;
       text-transform: uppercase;
       width: 33.33333333%; }
-      header nav li a {
+      .site-header nav li a {
         color: #fafae8;
         display: table-cell;
         height: 80px;
         padding: 0 40px;
         vertical-align: middle;
         width: 100%; }
-      header nav li.writing-link {
+      .site-header nav li.writing-link {
         background: #79c2b2; }
-      header nav li.work-link {
+      .site-header nav li.work-link {
         background: #48a18c; }
-      header nav li.notes-link {
+      .site-header nav li.notes-link {
         background: #d690a0; }
-      header nav li.about-link {
+      .site-header nav li.about-link {
         background: #a2606f; }
-      header nav li.talks-link {
+      .site-header nav li.talks-link {
         background: #70777a; }
-      header nav li.contact-link {
+      .site-header nav li.contact-link {
         background: #4b5052; }
 
 .main-banner {
