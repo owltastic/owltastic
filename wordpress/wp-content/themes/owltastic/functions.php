@@ -136,3 +136,16 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * A thing for truncating excerpts
+ */
+function get_excerpt($count){
+  $permalink = get_permalink($post->ID);
+  $excerpt = get_the_content();
+  $excerpt = strip_tags($excerpt);
+  $excerpt = substr($excerpt, 0, $count);
+  $excerpt = substr($excerpt, 0, strripos($excerpt, " "));
+  $excerpt = $excerpt.'... <a href="'.$permalink.'">Read more</a>';
+  return $excerpt;
+}

@@ -15,7 +15,7 @@ $owltastic-gold: #d8c287;
 @mixin cta-style {
 	-webkit-font-smoothing: antialiased;
 	font-family: "Montserrat";
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -118,13 +118,10 @@ h1 {
 		width: 50%;
 	
 		li {
+			@include cta-style;
 			display: table;
 			table-layout: fixed;
 			float: left;
-			font-size: 12px;
-			font-weight: bold;
-			letter-spacing: 1px;
-			text-transform: uppercase;
 			width: 33.33333333%;
 		
 			a {
@@ -185,7 +182,7 @@ h1 {
 		width: 50%;
 	}
 
-	h1 {
+	h1 a {
 		@include cta-style;
 		color: $owltastic-cream;
 		line-height: 1.3em;
@@ -216,7 +213,7 @@ h1 {
 		color: darken($owltastic-pink,0%);
 		left: 0;
 		bottom: 0;
-		padding: 40px;
+		padding: 40px 40px 40px 6.818181818%;
 		position: absolute;
 		width: 50%;
 	}
@@ -284,7 +281,7 @@ h1 {
 
 		h3 {
 			@include cta-style;
-      line-height: 1.8em;
+			line-height: 1.8em;
 			margin-bottom: 10px;
 
 			a {
@@ -296,15 +293,19 @@ h1 {
 			-webkit-font-smoothing: antialiased;
 			color: $owltastic-cream;
 			font-family: "bitter";
-			font-size: 15px;
+			font-size: 18px;
 			line-height: 1.5em;
+
+			a {
+				color: $owltastic-teal;
+			}
 		}
 
-		a {
+		a.keep-reading {
 			@include cta-style;
 			color: $owltastic-pink;
 			display: block;
-			margin-top: 12px;
+			margin-top: 10px;
 		}
 
 		&:nth-of-type(even) {

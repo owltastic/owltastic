@@ -64,13 +64,15 @@ h1 {
     background: #4b5052;
     width: 50%; }
     .site-header nav li {
-      display: table;
-      table-layout: fixed;
-      float: left;
-      font-size: 12px;
+      -webkit-font-smoothing: antialiased;
+      font-family: "Montserrat";
+      font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
       text-transform: uppercase;
+      display: table;
+      table-layout: fixed;
+      float: left;
       width: 33.33333333%; }
       .site-header nav li a {
         color: #fafae8;
@@ -117,10 +119,10 @@ h1 {
     float: left;
     padding: 6.818181818% 6.818181818% 160px 6.818181818%;
     width: 50%; }
-  .main-banner h1 {
+  .main-banner h1 a {
     -webkit-font-smoothing: antialiased;
     font-family: "Montserrat";
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -146,7 +148,7 @@ h1 {
   .main-banner .writing-link {
     -webkit-font-smoothing: antialiased;
     font-family: "Montserrat";
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -154,7 +156,7 @@ h1 {
     color: #d690a0;
     left: 0;
     bottom: 0;
-    padding: 40px;
+    padding: 40px 40px 40px 6.818181818%;
     position: absolute;
     width: 50%; }
   .main-banner .banner-image {
@@ -166,7 +168,7 @@ h1 {
     .main-banner .banner-image a {
       -webkit-font-smoothing: antialiased;
       font-family: "Montserrat";
-      font-size: 12px;
+      font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -210,7 +212,7 @@ h1 {
     .notes li h3 {
       -webkit-font-smoothing: antialiased;
       font-family: "Montserrat";
-      font-size: 12px;
+      font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -222,18 +224,20 @@ h1 {
       -webkit-font-smoothing: antialiased;
       color: #fafae8;
       font-family: "bitter";
-      font-size: 15px;
+      font-size: 18px;
       line-height: 1.5em; }
-    .notes li a {
+      .notes li p a {
+        color: #79c2b2; }
+    .notes li a.keep-reading {
       -webkit-font-smoothing: antialiased;
       font-family: "Montserrat";
-      font-size: 12px;
+      font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
       text-transform: uppercase;
       color: #d690a0;
       display: block;
-      margin-top: 12px; }
+      margin-top: 10px; }
     .notes li:nth-of-type(even) {
       margin-left: 6.818181818%; }
 
@@ -288,7 +292,7 @@ h1 {
     .latest-work li h3 a {
       -webkit-font-smoothing: antialiased;
       font-family: "Montserrat";
-      font-size: 12px;
+      font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -323,7 +327,7 @@ h1 {
   .speaking-events ol {
     -webkit-font-smoothing: antialiased;
     font-family: "Montserrat";
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -422,7 +426,7 @@ footer {
       display: block;
       -webkit-font-smoothing: antialiased;
       font-family: "Montserrat";
-      font-size: 12px;
+      font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
       text-transform: uppercase; }
