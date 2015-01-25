@@ -15,17 +15,16 @@
 body {
   background: #fafae8;
   color: #4b5052;
-  font-family: "Montserrat"; }
+  font-family: "Source Sans Pro"; }
 
 a {
   text-decoration: none; }
 
 h1 {
   -webkit-font-smoothing: antialiased;
-  font-family: "abril fatface";
-  letter-spacing: -.015em;
+  font-family: "Grand Hotel";
   line-height: 1.2em;
-  font-size: 50px; }
+  font-size: 65px; }
 
 .site-header {
   -webkit-font-smoothing: antialiased;
@@ -45,7 +44,7 @@ h1 {
       width: 100%; }
   .site-header .tagline {
     background: #595d5f url(img/bg-pattern-gray.jpg);
-    font-family: "bitter";
+    font-family: "Source Sans Pro";
     padding: 35px 40px 40px 40px;
     width: 36.36363636%;
     /* 400/1100 */ }
@@ -65,7 +64,7 @@ h1 {
     width: 50%; }
     .site-header nav li {
       -webkit-font-smoothing: antialiased;
-      font-family: "Montserrat";
+      font-family: "Source Sans Pro";
       font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
@@ -121,7 +120,7 @@ h1 {
     width: 50%; }
   .main-banner h1 a {
     -webkit-font-smoothing: antialiased;
-    font-family: "Montserrat";
+    font-family: "Source Sans Pro";
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -130,10 +129,9 @@ h1 {
     line-height: 1.3em; }
   .main-banner h2 {
     -webkit-font-smoothing: antialiased;
-    font-family: "abril fatface";
-    letter-spacing: -.015em;
+    font-family: "Grand Hotel";
     line-height: 1.2em;
-    font-size: 50px;
+    font-size: 65px;
     margin: 20px 0;
     text-transform: capitalize; }
     .main-banner h2 a {
@@ -141,13 +139,13 @@ h1 {
   .main-banner p {
     -webkit-font-smoothing: antialiased;
     color: #3f4345;
-    font-family: "bitter";
+    font-family: "Source Sans Pro";
     font-size: 22px;
     letter-spacing: -.015em;
     line-height: 1.6em; }
   .main-banner .writing-link {
     -webkit-font-smoothing: antialiased;
-    font-family: "Montserrat";
+    font-family: "Source Sans Pro";
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -167,7 +165,7 @@ h1 {
     width: 50%; }
     .main-banner .banner-image a {
       -webkit-font-smoothing: antialiased;
-      font-family: "Montserrat";
+      font-family: "Source Sans Pro";
       font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
@@ -187,7 +185,7 @@ h1 {
       color: #79c2b2; }
   .notes h2 {
     -webkit-font-smoothing: antialiased;
-    font-family: "bitter";
+    font-family: "Source Sans Pro";
     font-size: 20px;
     -webkit-font-smoothing: antialiased;
     color: #fafae8;
@@ -211,7 +209,7 @@ h1 {
       display: table-cell; }
     .notes li h3 {
       -webkit-font-smoothing: antialiased;
-      font-family: "Montserrat";
+      font-family: "Source Sans Pro";
       font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
@@ -223,14 +221,14 @@ h1 {
     .notes li p {
       -webkit-font-smoothing: antialiased;
       color: #fafae8;
-      font-family: "bitter";
+      font-family: "Source Sans Pro";
       font-size: 18px;
       line-height: 1.5em; }
       .notes li p a {
         color: #79c2b2; }
     .notes li a.keep-reading {
       -webkit-font-smoothing: antialiased;
-      font-family: "Montserrat";
+      font-family: "Source Sans Pro";
       font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
@@ -257,7 +255,7 @@ h1 {
     text-align: center; }
   .latest-work h2 {
     -webkit-font-smoothing: antialiased;
-    font-family: "bitter";
+    font-family: "Source Sans Pro";
     font-size: 20px;
     color: #fafae8;
     line-height: 1.4em;
@@ -294,7 +292,7 @@ h1 {
       width: 100%; }
     .latest-work li h3 a {
       -webkit-font-smoothing: antialiased;
-      font-family: "Montserrat";
+      font-family: "Source Sans Pro";
       font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
@@ -324,13 +322,13 @@ h1 {
     margin: 0 20px 20px 0; }
   .speaking-events h2 {
     -webkit-font-smoothing: antialiased;
-    font-family: "bitter";
+    font-family: "Source Sans Pro";
     font-size: 20px;
     display: inline-block;
     line-height: 1.3em; }
   .speaking-events ol {
     -webkit-font-smoothing: antialiased;
-    font-family: "Montserrat";
+    font-family: "Source Sans Pro";
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -388,7 +386,7 @@ h1 {
     margin-bottom: 20px; }
   .elsewhere p {
     -webkit-font-smoothing: antialiased;
-    font-family: "bitter";
+    font-family: "Source Sans Pro";
     font-size: 26px;
     letter-spacing: -.018em;
     line-height: 1.6em; }
@@ -403,7 +401,7 @@ footer {
   footer p {
     color: #fafae8;
     float: right;
-    font-family: "adelle";
+    font-family: "Source Sans Pro";
     font-size: 20px;
     line-height: 1.7em;
     width: 44.54545455%;
@@ -429,7 +427,7 @@ footer {
       border-bottom: 1px solid #333637;
       display: block;
       -webkit-font-smoothing: antialiased;
-      font-family: "Montserrat";
+      font-family: "Source Sans Pro";
       font-size: 13px;
       font-weight: bold;
       letter-spacing: 1px;
@@ -506,13 +504,13 @@ footer {
       width: 18px;
       height: 185px; }
   .posts-list h2 {
-    font-family: "bitter";
+    font-family: "Source Sans Pro";
     font-size: 34px;
     margin-bottom: 50px;
     text-align: center;
     text-transform: capitalize; }
   .posts-list p {
-    font-family: "bitter";
+    font-family: "Source Sans Pro";
     font-size: 22px;
     line-height: 1.8em; }
 

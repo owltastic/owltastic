@@ -14,7 +14,7 @@ $owltastic-gold: #d8c287;
 
 @mixin cta-style {
 	-webkit-font-smoothing: antialiased;
-	font-family: "Montserrat";
+	@include main-font;
 	font-size: 13px;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -23,16 +23,19 @@ $owltastic-gold: #d8c287;
 
 @mixin headline-style {
 	-webkit-font-smoothing: antialiased;
-	font-family: "abril fatface";
-	letter-spacing: -.015em;
+	font-family: "Grand Hotel";
 	line-height: 1.2em;
-	font-size: 50px;
+	font-size: 65px;
 }
 
 @mixin secondary-headline {
 	-webkit-font-smoothing: antialiased;
-	font-family: "bitter";
+	@include main-font;
 	font-size: 20px;
+}
+
+@mixin main-font {
+	font-family: "Source Sans Pro"
 }
 
 * {
@@ -53,7 +56,7 @@ $owltastic-gold: #d8c287;
 body {
 	background: $owltastic-cream;
 	color: $owltastic-gray;
-	font-family: "Montserrat";
+	@include main-font;
 }
 
 a {
@@ -88,7 +91,7 @@ h1 {
 
 	.tagline {
 		background: #595d5f url(img/bg-pattern-gray.jpg);
-		font-family: "bitter";
+		@include main-font;
 		padding: 35px 40px 40px 40px;
 		width: 36.36363636%; /* 400/1100 */
 
@@ -201,7 +204,7 @@ h1 {
 	p {
 		-webkit-font-smoothing: antialiased;
 		color: darken($owltastic-gray,5%);
-		font-family: "bitter";
+		@include main-font;
 		font-size: 22px;
 		letter-spacing: -.015em;
 		line-height: 1.6em;
@@ -292,7 +295,7 @@ h1 {
 		p {
 			-webkit-font-smoothing: antialiased;
 			color: $owltastic-cream;
-			font-family: "bitter";
+			@include main-font;
 			font-size: 18px;
 			line-height: 1.5em;
 
@@ -521,7 +524,7 @@ h1 {
 
 	p {
 		-webkit-font-smoothing: antialiased;
-		font-family: "bitter";
+		@include main-font;
 		font-size: 26px;
 		letter-spacing: -.018em;
 		line-height: 1.6em;
@@ -544,7 +547,7 @@ footer {
 	p {
 		color: $owltastic-cream;
 		float: right;
-		font-family: "adelle";
+		@include main-font;
 		font-size: 20px;
 		line-height: 1.7em;
 		width: 44.54545455%; /* 490/1100 */
@@ -673,7 +676,7 @@ footer {
 	}
 
 	h2 {
-		font-family: "bitter";
+		@include main-font;
 		font-size: 34px;
 		margin-bottom: 50px;
 		text-align: center;
@@ -681,7 +684,7 @@ footer {
 	}
 
 	p {
-		font-family: "bitter";
+		@include main-font;
 		font-size: 22px;
 		line-height: 1.8em;
 	}
