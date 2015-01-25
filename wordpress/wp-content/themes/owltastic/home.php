@@ -1,33 +1,32 @@
 <?php get_header(); ?>
 	
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
 
-		<?php if ( have_posts() ) : ?>
+	<section class="main-banner group">
+		<div class="banner-description">
+			<div class="writing-feature">
+				<?php $my_query = new WP_Query('category_name=Writing&showposts=1'); while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID;?>
+    			<h1>
+    				<a href="<?php the_permalink(); ?>">	
+    					The latest thing I've written
+	    			</a>
+	    		</h1>
+	    		<h2>
+    				<a href="<?php the_permalink(); ?>">
+    					<?php the_title(); ?>
+    				</a>
+    			</h2>
+  				<?php the_excerpt(); ?>
+  			<?php endwhile; ?>
+			</div>
+			<a href="" class="writing-link">See all the things I've written</a>
+		</div>
+		<div class="banner-image">
+			<a href="">This is me with my cat</a>
+		</div>
+	</section>
+	</main><!-- #main -->
+</div><!-- #primary -->
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php
-					/* Include the Post-Format-specific template for the content.
-					 * If you want to override this in a child theme, then include a file
-					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-					 */
-					get_template_part( 'content', get_post_format() );
-				?>
-
-			<?php endwhile; ?>
-
-			<?php the_posts_navigation(); ?>
-
-		<?php else : ?>
-
-			<?php get_template_part( 'content', 'none' ); ?>
-
-		<?php endif; ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

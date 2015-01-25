@@ -20,7 +20,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header group" role="banner">
 		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		<div class="tagline">
 			<h2>Hi! Welcome to Owltastic, my online home. I’m Meagan Fisher, a nocturnal-ish <a href="" class="designer-link">designer</a> who <a href="" class="writing-link">writes</a> and <a href="" class="speaking-link">speaks</a> about web design.</h2>
