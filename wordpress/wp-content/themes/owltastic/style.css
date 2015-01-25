@@ -267,6 +267,7 @@ h1 {
       color: #dda3b0; }
   .latest-work li {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border: 5px solid #fafae8;
     float: left;
     margin: 0 3.636363636% 3.636363636% 0;
     width: 30.71895425%;
@@ -288,6 +289,8 @@ h1 {
     .latest-work li a {
       display: block; }
     .latest-work li img {
+      border-top: 5px solid #fafae8;
+      display: block;
       width: 100%; }
     .latest-work li h3 a {
       -webkit-font-smoothing: antialiased;

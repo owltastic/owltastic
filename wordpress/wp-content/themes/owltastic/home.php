@@ -51,5 +51,29 @@
 
 </section>
 
+<section class="latest-work group">
+	
+	<h1>Latest work</h1>
+	<h2>I'm the Creative Director at <a href="http://sproutvideo.com">SproutVideo</a>. Here's things I've made for fun or as a freelancer. <a href="">See more work</a>.</h2>
+
+	<ul>
+	<?php $my_query = new WP_Query('category_name=Working&showposts=6'); while ($my_query->have_posts()) : $my_query->the_post(); $do_not_duplicate = $post->ID;?>
+			<li>
+				<h3>
+					<a href="<?php the_permalink(); ?>">
+						<?php the_title(); ?>
+					</a>
+				</h3>
+				<a href="<?php the_permalink(); ?>">
+					<?php echo get_the_post_thumbnail($post_id, 'small'); ?> 
+				</a>
+			</li>
+		<?php endwhile; ?>
+	</ul>
+</section>
+
+
+
+
 
 <?php get_footer(); ?>
